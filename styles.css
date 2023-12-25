@@ -1,0 +1,87 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    color: hsl(0, 0%, 8%);
+  }
+
+  .calc-section {
+    background-color: hsl(0, 0%, 94%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .calc-card {
+    background-color: white;
+    border-radius: 30px 30px 25% 30px;
+    padding: 40px;
+    width: 39%;
+    -webkit-box-shadow: 3px 3px 3px 0px #bd88bd;
+    -moz-box-shadow: 3px 3px 3px 0px #bd88bd;
+    box-shadow: 3px 3px 3px 0px #bd88bd;
+  }
+
+  .number {
+    color: hsl(259, 100%, 65%);
+  }
+
+  .form-grid {
+    max-width: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 6px;
+  }
+
+
+  label {
+    color: hsl(0, 1%, 44%);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2.3px;
+  }
+
+  .text-box {
+    border-radius: 5px;
+    border: 1px solid hsl(0, 0%, 86%);
+    padding: 8.5px 14px;
+    width: 105px;
+    height: 40px;
+    margin-right: 28px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .text-box:focus {
+    border: 1px solid hsl(259, 100%, 65%);
+    outline: none;
+  }
+
+  h1 {
+    font-size: 65px;
+    margin: 13px 0;
+    font-weight: 800;
+    font-style: italic;
+  }
+
+  #submit {
+    background-color: hsl(259, 100%, 65%);
+    padding: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    white-space: nowrap;
+  }
+
+  hr {
+    display: inline-block;
+    width: 84%;
+  }
+
+  #submit:hover {
+    background-color: hsl(0, 0%, 8%);
+  }
